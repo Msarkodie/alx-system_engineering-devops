@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o ^.| cat
+cut -c 1| paste -s |tr -d "[:blank:]"
