@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1,6 -d: /etc/passwd | tr ":" " " | sort -k 1 |sort -k 2
+cut -d : -f 1,6 /etc/passwd --output-delimiter=':'
