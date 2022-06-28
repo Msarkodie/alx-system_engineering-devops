@@ -1,1 +1,1 @@
-This a shell basics repo
+Variable expansion readme
